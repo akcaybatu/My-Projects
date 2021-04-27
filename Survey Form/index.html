@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <h1 id="title">Defence Industry Society Survey Form</h1>
+    <p id="description"><i>Thank you for your interest to our society. Please fill the form to join us.</i></p>
+    </div>
+
+
+    <form id="survey-form">
+        <div class="form-control">
+            <label for="name" id="name-label">Name:</label>
+            <input type="text" id="name" placeholder="Enter Your Name" required>
+        </div>
+        <div class="form-control">    
+            <label for="email" id="email-label">E-mail:</label>
+            <input type="email" id="email" placeholder="ex: alex01@gmail.com" required>
+        </div>
+        <div class="form-control">
+            <label for="age" id="number-label">Number:</label>
+            <input type="number" id="number" min="18" max="99" placeholder="ex: 821 554 12 34" required>
+        </div>    
+
+        <div class="form-control">
+            <label for="">Department:</label>
+            <select name="" id="dropdown">
+                <option value="marketing">Marketing</option>
+                <option value="organisation">Organisation</option>
+                <option value="accountant">Accountant</option>
+            </select>
+        </div>
+
+        <div class="form-control">
+            <label>Your year in university</label>
+            <label for="year-1"><input type="radio" id="year-1" name="year" value="1"> 1</label>           
+            <label for="year-2"><input type="radio" id="year-2" name="year" value="2"> 2</label>                      
+            <label for="year-3"><input type="radio" id="year-3" name="year" value="3"> 3</label>        
+            <label for="year-4"><input type="radio" id="year-4" name="year" value="4"> 4</label>       
+        </div>
+
+        <div class="form-control">
+            <label>Have You Ever Worked in a Different Society Before</label>
+            <label for="yes-1"><input type="radio" id="yes-1" name="choice" value="yes"> Yes</label>           
+            <label for="no-1"><input type="radio" id="no-1" name="choice" value="no"> No</label>                            
+        </div>
+
+        <div class="form-control">
+            <label>Title You Want to Work<small> (Pick at least one)</small> </label>        
+            <label for="department-1"><input type="checkbox" name="checkbox1" id="department-1" value="title-1">Designer</label>            
+            <label for="department-2"><input type="checkbox" name="checkbox1" id="department-2" value="title-2">Researcher</label>            
+            <label for="department-3"><input type="checkbox" name="checkbox1" id="department-3" value="title-3">Content Developer</label>           
+            <label for="department-4"><input type="checkbox" name="checkbox1" id="department-4" value="title-4">Organizator</label>
+        </div>
+
+        <div class="form-control">
+            <textarea name="textarea1" id="text" cols="30" rows="10">Thing You Can Add</textarea>
+        </div>
+
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
