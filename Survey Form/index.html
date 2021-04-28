@@ -9,36 +9,40 @@
 </head>
 <body>
     <div>
+    <img class="society-logo" src="assets/SST Logo.png" alt="Society Logo">
     <h1 id="title">Defence Industry Society Survey Form</h1>
     <p id="description"><i>Thank you for your interest to our society. Please fill the form to join us.</i></p>
     </div>
 
-
     <form id="survey-form">
         <div class="form-control">
-            <label for="name" id="name-label">Name:</label>
+            <label for="name" id="name-label">Name</label>
             <input type="text" id="name" placeholder="Enter Your Name" required>
         </div>
         <div class="form-control">    
-            <label for="email" id="email-label">E-mail:</label>
-            <input type="email" id="email" placeholder="ex: alex01@gmail.com" required>
+            <label for="email" id="email-label">E-mail</label>
+            <input type="email" id="email" placeholder="Enter Your E-Mail" required>
         </div>
         <div class="form-control">
-            <label for="age" id="number-label">Number:</label>
-            <input type="number" id="number" min="18" max="99" placeholder="ex: 821 554 12 34" required>
+            <label for="age" id="number-label">Age</label>
+            <input type="number" id="number" min="18" max="99" placeholder="Enter Your Age" required>
         </div>    
 
         <div class="form-control">
-            <label for="">Department:</label>
+            <label for="">Department</label>
             <select name="" id="dropdown">
-                <option value="marketing">Marketing</option>
-                <option value="organisation">Organisation</option>
-                <option value="accountant">Accountant</option>
+                <option value="computer">Computer Engineering</option>
+                <option value="mechanic">Mechanical Engineering</option>
+                <option value="chemic">Chemical Engineering</option>
+                <option value="system">Systems Engineering</option>
+                <option value="electric">Electrical Engineering</option>
+                <option value="aerospace">Aerospace Engineering</option>
             </select>
         </div>
 
         <div class="form-control">
-            <label>Your year in university</label>
+            <label>Grade</label>
+            <label for="preperation"><input type="radio" id="pre" name="year" value="pre"> Preperation</label>
             <label for="year-1"><input type="radio" id="year-1" name="year" value="1"> 1</label>           
             <label for="year-2"><input type="radio" id="year-2" name="year" value="2"> 2</label>                      
             <label for="year-3"><input type="radio" id="year-3" name="year" value="3"> 3</label>        
@@ -46,21 +50,25 @@
         </div>
 
         <div class="form-control">
-            <label>Have You Ever Worked in a Different Society Before</label>
+            <label>Have you ever worked in a different society before?</label>
             <label for="yes-1"><input type="radio" id="yes-1" name="choice" value="yes"> Yes</label>           
             <label for="no-1"><input type="radio" id="no-1" name="choice" value="no"> No</label>                            
         </div>
 
         <div class="form-control">
-            <label>Title You Want to Work<small> (Pick at least one)</small> </label>        
-            <label for="department-1"><input type="checkbox" name="checkbox1" id="department-1" value="title-1">Designer</label>            
-            <label for="department-2"><input type="checkbox" name="checkbox1" id="department-2" value="title-2">Researcher</label>            
-            <label for="department-3"><input type="checkbox" name="checkbox1" id="department-3" value="title-3">Content Developer</label>           
+            <label>Title you want to work<small> (Pick at least one)</small> </label>        
+            <label for="department-1"><input type="checkbox" name="checkbox1" id="department-1" value="title-1">Chairman</label>            
+            <label for="department-2"><input type="checkbox" name="checkbox1" id="department-2" value="title-2">Secretary</label>            
+            <label for="department-3"><input type="checkbox" name="checkbox1" id="department-3" value="title-3">Designer</label>           
             <label for="department-4"><input type="checkbox" name="checkbox1" id="department-4" value="title-4">Organizator</label>
+            <label for="department-5"><input type="checkbox" name="checkbox1" id="department-5" value="title-5">Content Developer</label>            
+            <label for="department-6"><input type="checkbox" name="checkbox1" id="department-6" value="title-6">Researcher</label>            
+            <label for="department-7"><input type="checkbox" name="checkbox1" id="department-7" value="title-7">Social Media Manager</label>           
+            <label for="department-8"><input type="checkbox" name="checkbox1" id="department-8" value="title-8">Accountant</label>
         </div>
 
         <div class="form-control">
-            <textarea name="textarea1" id="text" cols="30" rows="10">Thing You Can Add</textarea>
+            <textarea name="textarea1" id="text" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
         </div>
 
         <div>
