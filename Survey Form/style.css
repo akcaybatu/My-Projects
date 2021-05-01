@@ -33,7 +33,7 @@ h1{
 }
 
 h1 + p{
-    margin-top: 0;
+    margin-top: 10px;
 }
 
 form{
@@ -42,7 +42,7 @@ form{
     max-width: 550px;
     margin: 40px auto;
     padding: 30px 20px;
-    border-radius: 2px;
+    border-radius: 3px;
 }
 
 .form-control{

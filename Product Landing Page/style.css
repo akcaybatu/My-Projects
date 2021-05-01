@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+*{
+    font-family: 'Lato';
+}
+
+header{
+    background-image: 
+    linear-gradient(
+        150deg,
+        rgba(22, 80, 46, 0.8),
+        rgba(128, 128, 163, 0.7)
+      ),
+    url(https://images.unsplash.com/photo-1522747776116-64ee03be1dad?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+    height: 50%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B88A6A;
+    height: 50px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#nav-link{
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    font-size: 160%;
+}
+
+#form{
+    display: inline-flex;
+    flex-direction: column;
+}
+
+#form-section{
+    text-align: center;
+}
+
+#email{
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+#sub-btn{
+    background-color: #B88A6A;
+    color: white;
+    border: 20px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#features{
+    text-align: center;
+    margin-top: 50px;
+}
+
+

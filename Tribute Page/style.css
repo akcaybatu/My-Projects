@@ -1,17 +1,30 @@
 #image{
     max-width: 40%;
     height: auto;
-    display: block;
+    display: inline-block;
     margin: auto;
 }
 
 #img-div{
     background: #FFFFFF;
+    padding: 25px
+}
+
+#img-div p{
+    display: inline-block;
+    float: left;
+}
+
+#title li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+    margin: 50px;
 }
 
 #main{
-    text-align: center;
-    background: #EEEEEE;
+    font-family: 'Helvetica';
 }
 
 #tribute-info{
@@ -20,7 +33,6 @@
     display: block;
     margin: auto;
     text-align: left;
-    font-family: Helvetica;
 }
 
 h3{
@@ -29,9 +41,15 @@ h3{
 
 #title{
     padding: 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+#video-div{
+    padding: 5px;
+    margin-bottom: 50px;
 }
 
 li{
     padding-block: 10px;
 }
-
