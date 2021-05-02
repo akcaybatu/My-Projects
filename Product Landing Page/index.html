@@ -13,68 +13,73 @@
         <img id="header-img" src="assets/logo_200x200.png" alt="Company Logo">
         </div>
         <nav id="nav-bar">         
-            <a id="nav-link" href="">Features</a>
-            <a id="nav-link" href="">Production</a>
-            <a id="nav-link" href="">Pricing</a>
+            <a class="nav-link" href="#features">Features</a>
+            <a class="nav-link" href="#video-section">Production</a>
+            <a class="nav-link" href="#pricing">Pricing</a>
         </nav>        
     </header>
     <section id="form-section">
         <h3>Leave us your e-mail, we will call you for our products!</h2>
-        <form id="form">
-            <input id="email" type="email" placeholder="Enter your e-mail address">
-            <input id="sub-btn" type="submit" value="Get Started!" src=" https://www.freecodecamp.com/email-submit)">
+        <form id="form" action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+            <input id="email" type="email" name="email" placeholder="Enter your e-mail address">
+            <input id="submit" type="submit" name="submit" value="Get Started!">
         </form>
     </section>
     <section id="feature-section">
         <div id="features">
-            <div id="f-items">
-            <h3>High Quality</h3>
-            <p>High quality company materials made for you.</p>
+            <div id="container">    
+                <img id="f-img" src="assets/quality.png" alt="Quality Logo" width="100px" height="100px">
+                <div id="f-items">
+                <h3>High Quality</h3>
+                <p>High quality company materials made for you.</p>
+                </div>
             </div>
-            <div id="f-img">
-            <img src="assets/quality.png" alt="Quality Logo" width="100px" height="100px">
-            </div>
-        </div>
-        <div id="features">
-            <div id="f-items">
-            <h3>Fast Cargo</h3>
-            <p>Cargo delivery in 24 hours ust for our customers.</p>
-            </div>
-            <div id="f-img">
-            <img src="assets/cargo-truck.png" alt="Cargo Logo" width="100px" height="100px">
-            </div>
-        </div>
-        <div id="features">
-            <div id="f-items">
-            <h3>Qualified Tea</h3>
-            <p>UNESCO guaranteed tea since 1882 made for you.</p>
-            </div>
-            <div id="f-img">
-            <img src="assets/coffee-cup.png" alt="Tea Logo" width="100px" height="100px">
-            </div>
+            <div id="container">
+                <img id="f-img" src="assets/cargo-truck.png" alt="Cargo Logo" width="100px" height="100px">
+                <div id="f-items">
+                <h3>Fast Cargo</h3>
+                <p>Cargo delivery in 24 hours ust for our customers.</p>
+                </div>          
+            </div>   
+            <div id="container">
+                <img id="f-img" src="assets/coffee-cup.png" alt="Tea Logo" width="100px" height="100px">
+                <div id="f-items">
+                <h3>Qualified Tea</h3>
+                <p>UNESCO guaranteed tea since 1882 made for you.</p>
+                </div>
+            </div>   
         </div>
     </section>
-    <section>
+    <section id="video-section">
         <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/VkCKHgtsQZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
     <section id="pricing">
         <div id="price-cart">
-            <div id="vietnam">
-                <div id="v-tea">Vietnam Tea</div>
+            <div id="cart">
+                <div id="country">Vietnam Tea</div>
                 <h3>120$</h3>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <button type="button">Select</button>
             </div>
-            <div id="chinese">
-                <div id="c-tea">Chinese Tea</div>
+            <div id="cart">
+                <div id="country">Chinese Tea</div>
                 <h3>150$</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+                <button type="button">Select</button>
             </div>
-            <div id="turkish">
-                <div id="t-tea">Turkish Tea</div>
+            <div id="cart">
+                <div id="country">Turkish Tea</div>
                 <h3>100$</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+                <button type="button">Select</button>
             </div>
         </div>
     </section>
+    <footer>
+        <p>Contact</p>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+        <a href="">LinkedIn</a>
+    </footer>
 </body>
 </html>
