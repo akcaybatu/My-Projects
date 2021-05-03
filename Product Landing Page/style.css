@@ -26,11 +26,11 @@ header{
     justify-content: center;
     align-items: center;
     background-color: #B88A6A;
-    height: 50px;
+    height: 50%;
 }
 
 .nav-link:hover{
-    background-color: green;
+    color: green;
 }
 
 #logo{
@@ -65,7 +65,7 @@ header{
     color: white;
     border: 20px;
     border-radius: 5px;
-    height: 30px;
+    height: 30%;
 }
 
 #feature-section{
@@ -145,3 +145,8 @@ footer p{
     font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blanchedalmond;
+    }
+}
