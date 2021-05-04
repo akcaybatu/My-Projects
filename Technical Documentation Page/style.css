@@ -1,0 +1,31 @@
+#navbar{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(231, 229, 229);
+    padding: 15px;
+    text-align: center;
+}
+
+#main-doc{
+    position: absolute;
+    margin-left: 280px;
+    background-color: rgb(250, 246, 246);
+}
+
+#navbar a{
+    display: block;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.main-section{
+    margin-bottom: 50px;
+}
+
+header{
+    font-weight: bold;
+    font-size: 30px;
+}
