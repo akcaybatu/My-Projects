@@ -9,23 +9,72 @@
 
 #main-doc{
     position: absolute;
-    margin-left: 280px;
+    margin-left: 350px;
     background-color: rgb(250, 246, 246);
 }
 
 #navbar a{
     display: block;
-    margin-top: 50px;
     border-top: 1px solid black;
     text-decoration: none;
     font-size: 1.2em;
+    padding: 50px 30px;
+    color: black;
 }
 
 .main-section{
     margin-bottom: 50px;
+    padding-top: 7px;
 }
 
 header{
     font-weight: bold;
     font-size: 30px;
 }
+
+#navbar ul {
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+#navbar li {
+    color: #4d4e53;
+    border-top: 1px solid;
+    list-style: none;
+}
+
+  code{
+      background-color: blanchedalmond;
+}
+
+@media only screen and (max-width: 815px) {
+    #navbar ul {
+      border: 1px solid;
+      height: 207px;
+    }
+  
+    #navbar {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 275px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+    }
+  
+    #main-doc {
+      position: relative;
+      margin-left: 0px;
+      padding: 10px;
+    }
+
+    .all-section{
+        padding-top: 300px;
+    }
+  }
+  
