@@ -42,7 +42,7 @@ nav{
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 55px;
 }
 
 nav ul li a{
@@ -77,8 +77,8 @@ p{
 }
 
 .card{
-    width: 220px;
-    height: 240px;
+    height: auto;
+    max-width: 50%;
     display: inline-block;
     border-radius: 10px;
     background-size: cover;
@@ -114,4 +114,8 @@ h5{
 
 .card:hover{
     transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 100px) {
+    
 }
