@@ -2,7 +2,7 @@ body{
     margin: 0;
     display: inline-flex;
     flex-direction: column;
-    width: 100%;
+    min-width: 100%;
     font-family: 'Poppins';
 }
 
@@ -10,9 +10,11 @@ nav{
     background-color: #BE3144;
     font-weight: 400;
     font-size: 150%;
+    position: sticky;
+    top: 0px;
 }
 
-ul{
+#navbar ul{
     list-style: none;
     margin: 0;
     margin-right: 5%;
@@ -20,12 +22,15 @@ ul{
     justify-content: flex-end;
 }
 
-li{
+#navbar li{
     padding: 1%;
+}
+
+#navbar li:hover{
     background-color: rgb(53, 69, 114);
 }
 
-a{
+#navbar a{
     text-decoration: none;
     color: white;
 }
@@ -34,10 +39,10 @@ a{
     background-color: #303235;
     color: white;
     text-align: center;
-    min-height: calc(100vh - 70.34px);
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .name{
@@ -50,7 +55,7 @@ h1{
     margin-bottom: 0;
 }
 
-p{
+#welcome-section p{
     font-size: 2rem;
     margin-top: 0;
     color: #BE3144;
@@ -70,13 +75,14 @@ p{
 
 .project-tile{
     border: 1px solid black;
+    border-radius: 2px;
     margin: 50px 5px;
     height: 400px;
     width: 370px;
 }
 
-h2{
-    font-size: 2em;
+#projects h2{
+    font-size: 3em;
     text-align: center;
     color: white;
     font-weight: 500;
@@ -84,4 +90,93 @@ h2{
     text-decoration: underline;
     text-underline-position: under;
 }
+
+figcaption{
+    background-color: #303841;
+    height: 80px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: 370;
+}
+
+.project-img{
+    vertical-align: top;
+}
+
+button{
+    text-align: center;
+    background-color: #303841;   
+    padding: 20px;
+    border: 1px;
+    margin: 40px 0;
+    color: white;
+    font-size: 1em;
+    font-weight: 550;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+#profile{
+    background-color: #303841;
+    color: white;
+}
+
+#profile h2{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+#profile p{
+    text-align: center;
+    font-size: 1em;
+    font-style: italic;
+    margin-top: 0;
+}
+
+#social-media{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#profile-link{
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 20px 20px;
+    transition: transform 0.3s ease-out;
+}
+
+#page-end{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    border-top: 2px solid#BE3144;
+}
+
+#page-end p{
+    padding: 30px;
+}
+
+#profile-link:hover{
+    transform: translateY(5px);
+}
+
+@media (max-width: 480px) {
+    nav {
+      background-color: #45567D;
+    }
+  }
+
 
