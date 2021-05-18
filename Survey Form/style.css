@@ -10,14 +10,17 @@ body{
     text-align: center;
     color: white;
     margin: auto;
+    width: 100%;
+    height: 100%;
     background-image: 
     linear-gradient(
         150deg,
-        rgba(74, 74, 172, 0.8),
+        rgba(16, 48, 66, 0.8),
         rgba(143, 143, 202, 0.7)
       ),
     url(https://images.unsplash.com/photo-1531482615713-2afd69097998?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -80,13 +83,44 @@ form{
 }
 
 button{
-    background-color: cornflowerblue;
-    border: 1px solid #777;
+    background-color: #94815a;
+    border: 1px;
     border-radius: 2px;
     font-family: inherit;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     display: block;
     padding: 10px;
     width: 100%;
+    cursor: pointer;
+}
+
+button span{
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+button:hover span {
+    padding-right: 25px;
+  }
+  
+button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+@media screen and (max-width: 750px) {
+    body{
+        padding: 10px;
+    }    
 }
