@@ -6,34 +6,6 @@ body{
     font-family: 'Poppins';
 }
 
-nav{
-    background-color: #BE3144;
-    font-weight: 400;
-    font-size: 150%;
-    position: sticky;
-    top: 0px;
-}
-
-#navbar ul{
-    list-style: none;
-    margin: 0;
-    margin-right: 5%;
-    display: flex;
-    justify-content: flex-end;
-}
-
-#navbar li{
-    padding: 1%;
-}
-
-#navbar li:hover{
-    background-color: rgb(53, 69, 114);
-}
-
-#navbar a{
-    text-decoration: none;
-    color: white;
-}
 
 #welcome-section{
     background-color: #303235;

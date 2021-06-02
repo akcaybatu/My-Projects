@@ -1,35 +1,44 @@
-#image{
-    max-width: 40%;
-    height: auto;
-    display: inline-block;
-    margin: auto;
-}
-
-#img-div{
-    background: #FFFFFF;
-    padding: 25px
-}
-
-#img-div p{
-    display: inline-block;
-    float: left;
-}
-
-#title li{
-    list-style-type: none;
+body{
+    background-color: #EEEEEE;
     margin: 0;
     padding: 0;
-    display: inline;
-    margin: 50px;
 }
-
+/* header section */
 #main{
     font-family: 'Helvetica';
 }
 
+#title{
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
+
+h1{
+    font-weight: 600;
+    font-size: 40px;
+}
+/* header section */
+/* image section */
+#img-div{
+    background: #FFFFFF;
+    padding: 15px;
+    text-align: center;
+}
+
+#image{
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+}
+/* image section */
+/* tribute info section */
 #tribute-info{
     width: 40%;
     height: auto;
+    width: 100%;
     display: block;
     margin: auto;
     text-align: left;
@@ -37,19 +46,46 @@
 
 h3{
     text-align: center;
+    padding-top: 20px;
 }
 
-#title{
-    padding: 20px;
-    text-align: center;
-    background-color: #333;
-}
-
-#video-div{
-    padding: 5px;
-    margin-bottom: 50px;
+#tribute-info ul{
+    padding: 0px 150px 0px 150px;
 }
 
 li{
     padding-block: 10px;
 }
+/* tribute info section */
+/* video section */
+iframe{
+    display: block;
+    margin: auto;
+    padding-bottom: 40px;
+}
+/* video section */
+/* footer */
+#tribute-footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+/* footer */
+/* media queries */
+@media screen and (max-width: 750px) {
+    #image{
+        max-width: 90%;
+    }
+    figcaption{
+        font-size: 12px;
+    }
+    #tribute-info ul{
+        padding: 0px 60px 0px 60px;
+        font-size: 15px;
+    }
+    iframe{
+        width: 350px;
+        height: 250px;
+    }
+}
+/* media queries */
